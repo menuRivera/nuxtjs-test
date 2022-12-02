@@ -1,10 +1,9 @@
 <script setup>
-const { increment, decrement } = useCounter()
+const { nextPage, prevPage } = usePokemons()
 </script>
 <template>
-    <div>
-        <button class="btn btn-outline-primary" @click="decrement()">Decrementar</button>
-        <button class="btn btn-outline-primary ms-2" @click="increment(5)">Incrementar por 5</button>
-        <button class="btn btn-outline-primary ms-2" @click="increment()">Incrementar</button>
+    <div class="mb-3">
+        <button class="btn btn-outline-primary" @click="prevPage()">Previous page</button>
+        <button class="btn btn-outline-primary ms-2" @click="nextPage()">Next page</button>
     </div>
 </template>

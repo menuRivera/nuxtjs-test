@@ -8,6 +8,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@pinia/nuxt": "^0.4.6",
     "@popperjs/core": "^2.11.6",
     "node-sass": "^8.0.0",
     "nuxt": "3.0.0",
@@ -15,6 +16,7 @@
     "sass-loader": "^13.2.0"
   },
   "dependencies": {
-    "bootstrap": "^5.2.3"
+    "bootstrap": "^5.2.3",
+    "pinia": "^2.0.27"
   }
 }
